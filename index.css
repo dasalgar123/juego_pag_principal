@@ -1,0 +1,24 @@
+body{background-color: aquamarine;}
+.fondo_principal{width: 600px; height: 400px;}
+
+#titulo_principal{ color: black; box-shadow: 10px 10px 30px white; text-align: center;}
+
+.titulo{color: yellow; text-align: center; box-shadow: 10px 10px 20px yellow;}
+#img_logo{ display: flex; align-items: center; justify-content: center;}
+img{width: 100%; height: 100%;}
+
+
+.contenido_formulario { display: flex; justify-content: space-around;}
+
+button { padding: 10px; font-size: 16px; border: 1px solid #ccc; background-color: #007bff; color: white; border-radius: 5px; cursor: pointer;}
+button:hover { background-color: #0056b3;}
+
+
+#btnIniciarSesion {background-color: yellow; width: 400px; color: #000; font-size: 18px; border: 2px solid black;  border-radius: 30px 10px 30px 10px ;}
+#btnCrearUsuario{background-color:cornflowerblue; width: 400px;  color: #000;  font-size: 18px; border: 2px solid black; border-radius: 30px 10px 30px 10px ;}
+#btnOlvidoContrasena{ background-color:yellowgreen; width: 400px;  color: #000; font-size: 18px; border: 2px solid black; border-radius: 30px 10px 30px 10px ;}
+
+fieldset{ border: 2px solid darkblue;background-color: cadetblue;}
+
+footer { background-color: cadetblue; color: white; text-align: center; padding: 20px; position: fixed; width: 100%; bottom: 0; border: 2px solid darkblue;}
+footer p { margin: 0; font-size: 14px;}
