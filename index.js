@@ -14,7 +14,7 @@ class ButtonHandler {
         });
 
         document.getElementById("btnOlvidoContrasena").addEventListener("click", () => {
-            this.redirectToPage("./olvido_contrasena.html");
+            this.redirectToPage("https://juego-jugar.netlify.app");
         });
     }
 
